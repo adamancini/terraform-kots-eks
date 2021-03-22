@@ -1,7 +1,7 @@
 locals {
   s3_bucket_names = [
-    "com.getdbt.cloud.${var.namespace}-${var.environment}.logs",
-    "com.getdbt.cloud.${var.namespace}-${var.environment}.artifacts",
+    "io.kots.cloud.${var.namespace}-${var.environment}.logs",
+    "io.kots.cloud.${var.namespace}-${var.environment}.artifacts",
   ]
 }
 

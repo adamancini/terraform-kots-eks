@@ -1,4 +1,9 @@
 # required variables
+variable "appslug" {
+  type        = string
+  description = "Application slug (value passed to REPLICATED_APP)"
+}
+
 variable "namespace" {
   type        = string
   description = "Used as an identifier for various infrastructure components within the module. Usually single word that or the name of the organization. For exmaple: 'fishtownanalytics'"
